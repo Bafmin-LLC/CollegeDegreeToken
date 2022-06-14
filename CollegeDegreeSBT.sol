@@ -1147,7 +1147,7 @@ contract CollegeDegree is ERC721URIStorage  {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("SomeNFT", "CoolNFT") {
+    constructor() ERC721("CollegeDegreeSBT", "CDSBT") {
         owner = msg.sender;
     }
 
